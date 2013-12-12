@@ -52,7 +52,11 @@ github "ruby",       "6.7.2"
 github "stdlib",     "4.1.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",       "1.0.0"
 github "xquartz",    "1.1.0"
-github "irssi",		 "1.0.1"
+github "irssi",	     "1.0.1"
+github "flux",	     "1.0.0"
+github "vlc",	     "1.0.5"
+github "zsh",	     "1.0.0"
+github "osx",	     "2.2.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
