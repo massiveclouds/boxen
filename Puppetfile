@@ -57,6 +57,8 @@ github "flux",	     "1.0.0"
 github "vlc",	     "1.0.5"
 github "zsh",	     "1.0.0"
 github "osx",	     "2.2.0"
+github "ohmyzsh",    "0.0.1", :repo => "haelmy/puppet-ohmyzsh"
+github "skype",	     "1.0.7"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.

@@ -1,6 +1,7 @@
 class people::camusny {
-	include xquartz 
 	include irssi 
 	include flux
 	include zsh
+	include ohmyzsh
+	include skype
 }
