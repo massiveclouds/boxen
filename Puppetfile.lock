@@ -4,6 +4,11 @@ GITHUBTARBALL
     boxen (3.3.4)
 
 GITHUBTARBALL
+  remote: boxen/puppet-chrome
+  specs:
+    chrome (1.1.2)
+
+GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
     dnsmasq (1.0.0)
@@ -94,6 +99,11 @@ GITHUBTARBALL
     skype (1.0.7)
 
 GITHUBTARBALL
+  remote: boxen/puppet-slate
+  specs:
+    slate (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
@@ -145,6 +155,7 @@ GITHUBTARBALL
 
 DEPENDENCIES
   boxen (= 3.3.4)
+  chrome (= 1.1.2)
   dnsmasq (= 1.0.0)
   flux (= 1.0.0)
   foreman (= 1.0.0)
@@ -165,6 +176,7 @@ DEPENDENCIES
   repository (= 2.2.0)
   ruby (= 6.7.2)
   skype (= 1.0.7)
+  slate (= 1.0.0)
   stdlib (= 4.1.0)
   sudo (= 1.0.0)
   vagrant (= 3.0.1)

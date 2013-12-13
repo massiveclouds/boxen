@@ -1,11 +1,19 @@
 class people::camusny {
-	include irssi 
-	include flux
-	include zsh
-	include ohmyzsh
-	include skype
-	include vlc
-	include virtualbox
-	include vagrant
-	include wget
+  include vlc, wget, skype, irssi 
+  include zsh, ohmyzsh
+  include virtualbox, vagrant
+  include flux, slate, chrome
+
+  $home     = "/Users/${::boxen_user}"
+  $my       = "${home}/my"
+  $dotfiles = "${my}/dotfiles"
+
+  file { $my:
+    ensure  => directory
+  }
+
+  repository { $dotfiles:
+    source  => 'camusny/dotfiles',
+    require => File[$my]
+  }
 }
