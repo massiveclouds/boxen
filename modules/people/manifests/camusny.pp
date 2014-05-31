@@ -4,6 +4,8 @@ class people::camusny {
   include virtualbox, vagrant
   include flux, slate, chrome
 
+  include projects::all
+
   $home     = "/Users/${::boxen_user}"
   $my       = "${home}/my"
   $dotfiles = "${my}/dotfiles"
