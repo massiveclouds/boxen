@@ -96,7 +96,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
-    ruby (7.3.0)
+    ruby (8.0.3)
 
 GITHUBTARBALL
   remote: boxen/puppet-skype
@@ -191,7 +191,7 @@ DEPENDENCIES
   pkgconfig (= 1.0.0)
   postgresql (= 3.0.0)
   repository (= 2.3.0)
-  ruby (= 7.3.0)
+  ruby (= 8.0.3)
   skype (= 1.0.8)
   slate (= 1.0.1)
   stdlib (= 4.1.0)
